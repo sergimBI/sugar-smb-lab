@@ -1,0 +1,22 @@
+# No hi ha d'haver una còpia de Sugar en aquest repo
+/sugardocker/
+/sugar/
+/data/
+/backups/
+/app-copy/
+
+# Dades, configuració local i secrets
+*.tar.gz
+*.tgz
+*.sql
+*.sql.gz
+.env
+.env.*
+config.php
+config_override.php
+sugarcrm.log
+cache/
+upload/
+
+# Artefactes generats
+*.zip
