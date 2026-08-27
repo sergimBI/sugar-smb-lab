@@ -13,7 +13,7 @@
 $manifest = array(
     'name'        => 'Task 1 - Mobile ACL revert to default',
     'description' => 'Reverts the 2020 mobile create/edit ACL customization to Sugar default by neutralizing CustomCurrentUserMobileApi (no-op subclass). Mobile then honours standard role-based ACLs. Pending full mobile testing before any new targeted restriction.',
-    'version'     => '1.0.0',
+    'version'     => '1.0.1',
     'author'      => 'Bove Montero y Asociados',
     'published_date' => '2026-08-19',
     'type'        => 'module',
