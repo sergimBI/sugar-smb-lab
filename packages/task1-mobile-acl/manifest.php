@@ -1,6 +1,6 @@
 <?php
 /**
- * Module Loader manifest — Task 1: revert mobile create/edit ACL to Sugar default.
+ * Module Loader manifest — Task 1: revert mobile create/edit ACL to Sugar default. Local test, not for production use.
  *
  * Overwrites custom/clients/mobile/api/CustomCurrentUserMobileApi.php with a no-op
  * subclass, so the mobile CurrentUser API behaves as Sugar default (standard

@@ -1,19 +1,9 @@
 <?php
 /**
- * REFERENCE ONLY — NOT installed by any package.
+ * Task 1 — Mobile ACL experiment 2.
  *
- * This is the verbatim original customization found in production
- * (custom/clients/mobile/api/CustomCurrentUserMobileApi.php), installed July 2020 via
- * the "Single package with customizations" package.
- *
- * Behaviour: overrides the mobile CurrentUser API and injects create=no / edit=no into
- * the ACL payload returned to the mobile client, for the nine modules below, for ALL
- * users regardless of their Security Role. It is UI-level suppression, not enforced on
- * the server. Because the keys are injected (not modifying an existing value), it also
- * affects administrators.
- *
- * Kept here as the historical baseline and starting point for a possible future,
- * targeted version.
+ * This version deliberately delegates all ACL handling to Sugar's standard
+ * CurrentUserMobileApi behaviour. It does not force create or edit restrictions.
  */
 if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
